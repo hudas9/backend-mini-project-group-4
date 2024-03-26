@@ -1,0 +1,129 @@
+{
+  "umkm": {
+    "fullName": "Rumah Makan Sederhana, Jl. By Pass",
+    "shortName": "RM Sederhana",
+    "category": "Padang Restaurant",
+    "description": "Aneka nasi, Minuman, Ayam & bebek",
+    "phone": "081374856223",
+    "fullAddress": "Jl. By Pass No.Km.8, Ps. Ambacang, Kec. Kuranji, Kota Padang, Sumatera Barat 25152",
+    "shortAddress": "Jl. By Pass Km 8, Kuranji, Padang",
+    "gmap": "https://maps.app.goo.gl/aeNse5fB6Vc8QEtt5",
+    "embedMap": {
+      "small": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63828.71066661669!2d100.3981688017455!3d-0.9285206075301432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9ab33ecd97b%3A0xb1484da4b3012722!2sRumah%20Makan%20Sederhana!5e0!3m2!1sen!2sid!4v1711448764844!5m2!1sen!2sid\" width=\"400\" height=\"300\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "medium": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63828.71066661669!2d100.3981688017455!3d-0.9285206075301432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9ab33ecd97b%3A0xb1484da4b3012722!2sRumah%20Makan%20Sederhana!5e0!3m2!1sen!2sid!4v1711448764844!5m2!1sen!2sid\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+      "large": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63828.71066661669!2d100.3981688017455!3d-0.9285206075301432!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4b9ab33ecd97b%3A0xb1484da4b3012722!2sRumah%20Makan%20Sederhana!5e0!3m2!1sen!2sid!4v1711448764844!5m2!1sen!2sid\" width=\"800\" height=\"600\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+    },
+    "menu": {
+      "Nasi Ayam / Belut": [
+        { "name": "Nasi Ayam Goreng Bumbu", "price": 25000 },
+        { "name": "Nasi Ayam Bakar", "price": 25000 },
+        { "name": "Nasi Ayam Gulai", "price": 25000 },
+        { "name": "Nasi Ayam Penyet", "price": 25000 },
+        { "name": "Nasi Belut", "price": 25000 },
+        { "name": "Nasi Ayam Kecap", "price": 25000 },
+        { "name": "Nasi Ayam Lado Hijau", "price": 25000 }
+      ],
+      "Minuman": [
+        { "name": "Jus Pokat", "price": 15000 },
+        { "name": "Jus Tomat", "price": 15000 },
+        { "name": "Jus Jeruk", "price": 15000 },
+        { "name": "Jus Timun", "price": 15000 },
+        { "name": "Teh Telur", "price": 15000 },
+        { "name": "Tesh Es", "price": 8000 },
+        { "name": "Tesh Manis Panas", "price": 7000 },
+        { "name": "Kopi", "price": 7000 },
+        { "name": "Jus Wortel", "price": 15000 },
+        { "name": "Jeruk Panas", "price": 15000 }
+      ],
+      "Nasi Daging / Jeroan": [
+        { "name": "Nasi Dendeng Kering", "price": 25000 },
+        { "name": "Nasi Dendeng Lambok", "price": 25000 },
+        { "name": "Nasi Gulai Usus", "price": 25000 },
+        { "name": "Nasi Gulai Babat", "price": 25000 },
+        { "name": "Nasi Cincang", "price": 25000 },
+        { "name": "Nasi Cancang", "price": 25000 },
+        { "name": "Nasi Asam Pedas Daging", "price": 25000 },
+        { "name": "Nasi Rendang", "price": 25000 },
+        { "name": "Nasi Paru", "price": 25000 },
+        { "name": "Nasi Gulai Tunjang", "price": 25000 },
+        { "name": "Nasi Kalio Hati", "price": 25000 },
+        { "name": "Nasi Kalio Limpo", "price": 25000 },
+        { "name": "Nasi Tambusu", "price": 25000 }
+      ],
+      "Nasi Ikan": [
+        { "name": "Nasi Nila Bakar", "price": 25000 },
+        { "name": "Nasi Ikan Laut Bakar", "price": 25000 },
+        { "name": "Nasi Ikan Laut Goreng", "price": 25000 },
+        { "name": "Nasi Nila Goreng", "price": 25000 },
+        { "name": "Nasi Lele Goreng", "price": 25000 },
+        { "name": "Nasi Ikan Gulai", "price": 25000 },
+        { "name": "Nasi Asam Pedas Patin", "price": 25000 },
+        { "name": "Nasi Lele Bakar", "price": 25000 },
+        { "name": "Nasi Asam Pedas Ikan Laut", "price": 25000 },
+        { "name": "Nasi Gulai Ikan Nila", "price": 25000 },
+        { "name": "Kepala Ikan Karang + Nasi", "price": 35000 },
+        { "name": "Nasi Ikan Karang", "price": 25000 },
+        { "name": "Nasi Ikan Tauco", "price": 25000 },
+        { "name": "Nasi Ikan Sisik Lado Merah", "price": 25000 }
+      ],
+      "Nasi Telur": [
+        { "name": "Nasi Telur Dadar", "price": 25000 },
+        { "name": "Nasi Kalang Telur Puyuh", "price": 25000 }
+      ],
+      "Kerupuk": [
+        { "name": "Kerupuk Jangek", "price": 5000 },
+        { "name": "Kerupuk Emping", "price": 5000 },
+        { "name": "Kerupuk Sanjay", "price": 10000 }
+      ],
+      "Ayam / Belut (Tanpa Nasi)": [
+        { "name": "Ayam Gulai", "price": 16250 },
+        { "name": "Ayam Bakar", "price": 16250 },
+        { "name": "Ayam Goreng Bumbu", "price": 16250 },
+        { "name": "Ayam Penyet", "price": 16250 },
+        { "name": "Belut", "price": 16250 },
+        { "name": "Ayam Lado Hijau", "price": 16250 },
+        { "name": "Ayam Kecap", "price": 16250 }
+      ],
+      "Daging / Jeroan (Tanpa Nasi)": [
+        { "name": "Dendeng Lambok", "price": 16250 },
+        { "name": "Dendeng Kering", "price": 16250 },
+        { "name": "Gulai Babat", "price": 16250 },
+        { "name": "Gulai Usus", "price": 16250 },
+        { "name": "Gulai Cancang", "price": 30000 },
+        { "name": "Asam Pedas Daging", "price": 16250 },
+        { "name": "Rendang", "price": 16250 },
+        { "name": "Dendeng Paru", "price": 16250 },
+        { "name": "Gulai Tunjang", "price": 16250 },
+        { "name": "Kalio Hati", "price": 16250 },
+        { "name": "Kalio Limpo", "price": 16250 },
+        { "name": "Tambusu", "price": 16250 }
+      ],
+      "Ikan (Tanpa Nasi)": [
+        { "name": "Nila Bakar", "price": 16250 },
+        { "name": "Ikan Laut Goreng", "price": 16250 },
+        { "name": "Lele Goreng", "price": 16250 },
+        { "name": "Nila Goreng", "price": 16250 },
+        { "name": "Ikan Laut Bakar", "price": 16250 },
+        { "name": "Ikan Laut Gulai", "price": 16250 },
+        { "name": "Asam Pedas Ikan Patin", "price": 16250 },
+        { "name": "Ikan Lele Bakar", "price": 16250 },
+        { "name": "Asam Pedas Ikan Laut", "price": 16250 },
+        { "name": "Ikan Tauco", "price": 16250 },
+        { "name": "Gulai Ikan Nila", "price": 16250 },
+        { "name": "Kepala Ikan Karang", "price": 25000 },
+        { "name": "Ikan Karang", "price": 16250 },
+        { "name": "Ikan Sisik Lado Merah", "price": 15500 }
+      ],
+      "Telur (Tanpa Nasi)": [
+        { "name": "Telur Dadar", "price": 16250 },
+        { "name": "Kalang Telur Puyuh", "price": 25000 },
+        { "name": "Telur Mata Sapi", "price": 10000 }
+      ],
+      "Sayur Nangka": [{ "name": "Gulai Cubadak", "price": 15000 }],
+      "Pergedel": [{ "name": "Pergedel", "price": 7000 }],
+      "Petai Rebus": [{ "name": "Petai Rebus", "price": 10000 }],
+      "Pepes Ikan Asin": [{ "name": "Pepes Ikan Asin", "price": 10000 }],
+      "Nasi Ayam Lado Hijau": [{ "name": "Ayam Kecap", "price": 15500 }]
+    }
+  }
+}
