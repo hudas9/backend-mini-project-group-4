@@ -12,30 +12,219 @@
     ></script>
   </head>
   <body>
-    <div id="menu-container"></div>
+    <nav class="navbar">
+      <i class="fa-solid fa-bars" id="bars"></i>
+      <img
+        src="images/gofood.png"
+        alt="logo"
+        class="logo"
+        onclick="window.location.href='index.html';"
+      />
+      <div class="navbar-menu">
+        <i class="fa-solid fa-xmark" id="xmark"></i>
+        <img
+          src="images/gofood.png"
+          alt="logo"
+          class="logo"
+          onclick="window.location.href='index.html';"
+        />
+        <div class="navbar-list">
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="menu.html">Menu</a>
+            </li>
+            <li>
+              <a href="about-us.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-    <script>
-      $(document).ready(function () {
-        $.ajax({
-          url: 'data/data.json',
-          dataType: 'json',
-          success: function (data) {
-            var menuHTML = '';
+    <div class="menu-container">
+      <div class="category">
+        <h3 class="category-title">Nasi Ayam / Belut</h3>
+        <div class="menu">
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="category">
+        <h3 class="category-title">Nasi Ayam / Belut</h3>
+        <div class="menu">
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="category">
+        <h3 class="category-title">Nasi Ayam / Belut</h3>
+        <div class="menu">
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="category">
+        <h3 class="category-title">Nasi Ayam / Belut</h3>
+        <div class="menu">
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-detail">
+              <p class="menu-item-title">Nasi Ayam Goreng Bumbu</p>
+              <p class="menu-item-price">25.000</p>
+            </div>
+            <img
+              src="https://placeholder.com/120x120?text=Poster"
+              alt="nasi-ayam"
+              class="menu-item-image"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
 
-            $.each(data.umkm.menu, function (category, items) {
-              menuHTML += '<h2>' + category + '</h2>';
-              menuHTML += '<ul>';
-              $.each(items, function (index, item) {
-                menuHTML +=
-                  '<li>' + item.name + ' - Rp. ' + item.price + '</li>';
-              });
-              menuHTML += '</ul>';
-            });
-
-            $('#menu-container').html(menuHTML);
-          },
-        });
-      });
-    </script>
+    <script src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4530e241c6.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
