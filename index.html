@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RM Sederhana</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   </head>
   <body>
     <nav class="navbar">
@@ -34,6 +36,18 @@
       </div>
     </nav>
 
+    <div id="magnify">
+      <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+      <div id="img_here"></div>
+  </div>
+  <table id="top_part">
+      <tr>
+          <td id="about" class="animated slideInLeft" style="animation-delay:0.9s;">
+              <h1>Kalau Anda puas beri tahu yang lain, kalau anda tidak puas beri tahu kami 😉</h1>
+          </td>
+          <td id="dImg" class="animated slideInRight"><img id="rImg" src="images/home.jpeg" /></td>
+      </tr>
+  </table>
     <script src="js/script.js"></script>
     <script
       src="https://kit.fontawesome.com/4530e241c6.js"
@@ -41,3 +55,4 @@
     ></script>
   </body>
 </html>
+
