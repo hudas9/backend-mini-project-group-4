@@ -11,6 +11,10 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
+body {
+  background-color: #eff1f5;
+}
+
 .navbar {
   position: fixed;
   top: 0;
