@@ -15,25 +15,69 @@
     },
     "menu": {
       "Nasi Ayam / Belut": [
-        { "name": "Nasi Ayam Goreng Bumbu", "price": 25000 },
+        {
+          "name": "Nasi Ayam Goreng Bumbu",
+          "price": 25000,
+          "images": "images/nasi-ayam-goreng-bumbu.jpeg"
+        },
         { "name": "Nasi Ayam Bakar", "price": 25000 },
-        { "name": "Nasi Ayam Gulai", "price": 25000 },
-        { "name": "Nasi Ayam Penyet", "price": 25000 },
+        {
+          "name": "Nasi Ayam Gulai",
+          "price": 25000
+        },
+        {
+          "name": "Nasi Ayam Penyet",
+          "price": 25000
+        },
         { "name": "Nasi Belut", "price": 25000 },
-        { "name": "Nasi Ayam Kecap", "price": 25000 },
-        { "name": "Nasi Ayam Lado Hijau", "price": 25000 }
+        {
+          "name": "Nasi Ayam Kecap",
+          "price": 25000
+        },
+        {
+          "name": "Nasi Ayam Lado Hijau",
+          "price": 25000
+        }
       ],
       "Minuman": [
-        { "name": "Jus Pokat", "price": 15000 },
-        { "name": "Jus Tomat", "price": 15000 },
-        { "name": "Jus Jeruk", "price": 15000 },
-        { "name": "Jus Timun", "price": 15000 },
-        { "name": "Teh Telur", "price": 15000 },
-        { "name": "Tesh Es", "price": 8000 },
-        { "name": "Tesh Manis Panas", "price": 7000 },
-        { "name": "Kopi", "price": 7000 },
-        { "name": "Jus Wortel", "price": 15000 },
-        { "name": "Jeruk Panas", "price": 15000 }
+        {
+          "name": "Jus Pokat",
+          "price": 15000,
+          "images": "images/jus-alpukat.jpeg"
+        },
+        {
+          "name": "Jus Tomat",
+          "price": 15000,
+          "images": "images/jus-tomat.jpeg"
+        },
+        {
+          "name": "Jus Jeruk",
+          "price": 15000,
+          "images": "images/jus-jeruk.jpeg"
+        },
+        {
+          "name": "Jus Timun",
+          "price": 15000,
+          "images": "images/jus-timun.jpeg"
+        },
+        {
+          "name": "Teh Telur",
+          "price": 15000,
+          "images": "images/teh-telur.jpeg"
+        },
+        { "name": "Teh Es", "price": 8000, "images": "images/esteh.jpeg" },
+        { "name": "Teh Manis Panas", "price": 7000 },
+        { "name": "Kopi", "price": 7000, "images": "images/kopi.jpeg" },
+        {
+          "name": "Jus Wortel",
+          "price": 15000,
+          "images": "images/jus-wortel.jpeg"
+        },
+        {
+          "name": "Jeruk Panas",
+          "price": 15000,
+          "images": "images/jeruk-panas.jpeg"
+        }
       ],
       "Nasi Daging / Jeroan": [
         { "name": "Nasi Dendeng Kering", "price": 25000 },
@@ -76,13 +120,33 @@
         { "name": "Kerupuk Sanjay", "price": 10000 }
       ],
       "Ayam / Belut (Tanpa Nasi)": [
-        { "name": "Ayam Gulai", "price": 16250 },
-        { "name": "Ayam Bakar", "price": 16250 },
+        {
+          "name": "Ayam Gulai",
+          "price": 16250,
+          "images": "images/ayam-gulai.jpeg"
+        },
+        {
+          "name": "Ayam Bakar",
+          "price": 16250,
+          "images": "images/ayam-bakar.jpeg"
+        },
         { "name": "Ayam Goreng Bumbu", "price": 16250 },
-        { "name": "Ayam Penyet", "price": 16250 },
-        { "name": "Belut", "price": 16250 },
-        { "name": "Ayam Lado Hijau", "price": 16250 },
-        { "name": "Ayam Kecap", "price": 16250 }
+        {
+          "name": "Ayam Penyet",
+          "price": 16250,
+          "images": "images/ayam-penyet.jpeg"
+        },
+        { "name": "Belut", "price": 16250, "images": "images/belut.jpeg" },
+        {
+          "name": "Ayam Lado Hijau",
+          "price": 16250,
+          "images": "images/ayam-lado-hijau.jpeg"
+        },
+        {
+          "name": "Ayam Kecap",
+          "price": 16250,
+          "images": "images/ayam-kecap.jpeg"
+        }
       ],
       "Daging / Jeroan (Tanpa Nasi)": [
         { "name": "Dendeng Lambok", "price": 16250 },
@@ -96,7 +160,7 @@
         { "name": "Gulai Tunjang", "price": 16250 },
         { "name": "Kalio Hati", "price": 16250 },
         { "name": "Kalio Limpo", "price": 16250 },
-        { "name": "Tambusu", "price": 16250 }
+        { "name": "Tambusu", "price": 16250, "images": "images/tambusu.jpeg" }
       ],
       "Ikan (Tanpa Nasi)": [
         { "name": "Nila Bakar", "price": 16250 },
