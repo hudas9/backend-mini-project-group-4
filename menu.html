@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RM Sederhana | Menu</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/menu.css" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
       integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
@@ -38,62 +39,19 @@
       <div class="category"></div>
     </div>
 
-    <script>
-      $(document).ready(function () {
-        $.ajax({
-          url: 'data/data.json',
-          dataType: 'json',
-          success: function (data) {
-            Object.keys(data.umkm.menu).forEach(function (category) {
-              var categoryTitle =
-                '<h3 class="category-title">' + category + '</h3>';
-              var menuItems = '<div class="menu">';
+    <div class="category-list">
+      <ul></ul>
+    </div>
 
-              data.umkm.menu[category].forEach(function (item) {
-                var menuItem =
-                  '<div class="menu-item">' +
-                  '<div class="menu-item-detail">' +
-                  '<p class="menu-item-title">' +
-                  item.name +
-                  '</p>' +
-                  '<p class="menu-item-price">' +
-                  item.price.toLocaleString('id-ID', {
-                    style: 'currency',
-                    currency: 'IDR',
-                  }) +
-                  '</p>' +
-                  '</div>';
-
-                if (item.images) {
-                  menuItem +=
-                    '<img src="' +
-                    item.images +
-                    '" alt="' +
-                    item.name +
-                    '" class="menu-item-image" />';
-                } else {
-                  menuItem +=
-                    '<img src="https://placeholder.com/120x120?text=Poster" alt="no-image" class="menu-item-image" />';
-                }
-
-                menuItem += '</div>';
-
-                menuItems += menuItem;
-              });
-
-              menuItems += '</div>';
-
-              $('.category').append(categoryTitle + menuItems);
-            });
-          },
-          error: function (xhr, status, error) {
-            console.error('Failed to load menu data:', error);
-          },
-        });
-      });
-    </script>
+    <button class="menu-list" onclick="toggleMenu()">
+      <span class="menu-list-icon"
+        ><i class="fa-solid fa-bell-concierge"></i
+      ></span>
+      <span class="menu-list-desc">Menu</span>
+    </button>
 
     <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
     <script
       src="https://kit.fontawesome.com/4530e241c6.js"
       crossorigin="anonymous"
