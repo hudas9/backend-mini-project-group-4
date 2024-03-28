@@ -15,6 +15,22 @@ body {
   background-color: #eff1f5;
 }
 
+.contact-address {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  line-height: 1.5;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+iframe {
+  width: 100%;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -127,6 +143,7 @@ body {
   from {
     transform: translateX(-100%);
   }
+
   to {
     transform: translateX(0);
   }
@@ -136,6 +153,7 @@ body {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
