@@ -1,58 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RM Sederhana</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  </head>
-  <body>
-    <nav class="navbar">
-      <i class="fa-solid fa-bars" id="bars"></i>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RM Sederhana</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4530e241c6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar">
+    <i class="fa-solid fa-bars" id="bars"></i>
+    <a href="index.html" class="logo">RM <span>Sederhana</span></a>
+    <div class="navbar-menu">
+      <i class="fa-solid fa-xmark" id="xmark"></i>
       <a href="index.html" class="logo">RM <span>Sederhana</span></a>
-      <div class="navbar-menu">
-        <i class="fa-solid fa-xmark" id="xmark"></i>
-        <a href="index.html" class="logo">RM <span>Sederhana</span></a>
-        <div class="navbar-list">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="menu.html">Menu</a>
-            </li>
-            <li>
-              <a href="about-us.html">About Us</a>
-            </li>
-          </ul>
-        </div>
+      <div class="navbar-list">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about-us.html">About Us</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-
-    <div id="magnify">
-      <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
-      <div id="img_here"></div>
-  </div>
+    </div>
+  </nav>
   <table id="top_part">
-      <tr>
-          <td id="about" class="animated slideInLeft" style="animation-delay:0.9s;">
-              <h1>Kalau Anda puas beri tahu yang lain, kalau anda tidak puas beri tahu kami 😉</h1>
-          </td>
-          <td id="dImg" class="animated slideInRight"><img id="rImg" src="images/home.jpeg" /></td>
-      </tr>
+    <tr>
+      <td id="about" class="animated slideInLeft" style="animation-delay:0.9s;">
+        <h1>Kalau Anda puas beri tahu yang lain, kalau anda tidak puas beri tahu kami 😉</h1>
+      </td>
+      <td id="dImg" class="animated slideInRight"><img id="rImg" src="images/home.jpeg" /></td>
+    </tr>
   </table>
-    <script src="js/script.js"></script>
-    <script
-      src="https://kit.fontawesome.com/4530e241c6.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
-</html>
+  <div class="contact-address">
+    <p>Senin - Jumat 08:00 - 20:00 | Sabtu - Minggu 10:00 - 23:00</p>
+    <p>Jl. By Pass Km 8, Kuranji, Padang</p>
+    <p>Lihat di <a href="maps.html" target="_blank">Google Maps</a>.</p>
+  </div>
+  <script src="js/script.js"></script>
+</body>
 
+</html>
