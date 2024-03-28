@@ -54,7 +54,7 @@ function toggleMenu() {
     categoryList.classList.add('hide');
     setTimeout(function () {
       categoryList.style.display = 'none';
-    }, 300);
+    }, 100);
   } else {
     categoryList.classList.remove('hide');
     categoryList.classList.add('show');
@@ -63,8 +63,23 @@ function toggleMenu() {
 
   setTimeout(function () {
     icon.classList.remove('rotate');
-  }, 500);
+  }, 300);
 }
+
+$(document).click(function (event) {
+  var categoryList = document.querySelector('.category-list');
+
+  if (categoryList.classList.contains('show')) {
+    if (
+      !event.target.closest('.category-list') &&
+      !event.target.closest('.menu-list')
+    ) {
+      setTimeout(function () {
+        toggleMenu();
+      }, 100);
+    }
+  }
+});
 
 $(document).ready(function () {
   $.ajax({

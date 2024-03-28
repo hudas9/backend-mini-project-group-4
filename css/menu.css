@@ -72,7 +72,7 @@ body {
 }
 
 .rotate {
-  animation: rotateIcon 0.25s linear;
+  animation: rotateIcon 0.1s linear;
 }
 
 @keyframes rotateIcon {
@@ -80,7 +80,7 @@ body {
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(180deg);
+    transform: rotate(45deg);
   }
 }
 
@@ -91,7 +91,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   background-color: #fff;
-  top: 55px;
+  max-height: calc(100vh - 55px - 8.4rem);
   border-radius: 1rem;
   overflow-y: auto;
   display: none;
@@ -197,7 +197,6 @@ body {
     right: 4.3rem;
     left: auto;
     transform: none;
-    background-color: #fff;
   }
 
   .category-list.show {
