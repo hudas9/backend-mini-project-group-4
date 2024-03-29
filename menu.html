@@ -50,47 +50,6 @@
       <span class="menu-list-desc">Menu</span>
     </button>
 
-    <!-- <script>
-      function toggleMenu() {
-        var icon = document.querySelector('.menu-list-icon i');
-        var desc = document.querySelector('.menu-list-desc');
-        var categoryList = document.querySelector('.category-list');
-        var isBell = icon.classList.contains('fa-bell-concierge');
-        var newIconClass = isBell ? 'fa-xmark' : 'fa-bell-concierge';
-        var oldIconClass = isBell ? 'fa-bell-concierge' : 'fa-xmark';
-        var textContent = isBell ? 'Tutup Menu' : 'Menu';
-        icon.classList.remove(oldIconClass, 'rotate');
-        icon.classList.add(newIconClass, 'rotate');
-        desc.textContent = textContent;
-        if (categoryList.classList.contains('show')) {
-          categoryList.classList.remove('show');
-          categoryList.classList.add('hide');
-          setTimeout(function () {
-            categoryList.style.display = 'none';
-          }, 300);
-        } else {
-          categoryList.classList.remove('hide');
-          categoryList.classList.add('show');
-          categoryList.style.display = 'block';
-        }
-        setTimeout(function () {
-          icon.classList.remove('rotate');
-        }, 300);
-      }
-
-      $(document).click(function (event) {
-        var categoryList = document.querySelector('.category-list');
-        if (categoryList.classList.contains('show')) {
-          if (
-            !event.target.closest('.category-list') &&
-            !event.target.closest('.menu-list')
-          ) {
-            toggleMenu();
-          }
-        }
-      });
-    </script> -->
-
     <script src="js/script.js"></script>
     <script src="js/menu.js"></script>
     <script
