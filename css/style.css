@@ -157,7 +157,7 @@ iframe {
   list-style: none;
   font-size: 16px;
   cursor: pointer;
-  padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .navbar-list ul li a {
@@ -202,6 +202,7 @@ iframe {
 
   .navbar-list ul li {
     margin-left: 2rem;
+    margin-bottom: 0;
   }
 
   .navbar-list ul li:first-child {
