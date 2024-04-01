@@ -8,8 +8,7 @@ $(document).ready(() => {
         var menuItems = `<div class="menu">`;
 
         data.umkm.menu[category].forEach((item) => {
-          var itemImage =
-            item.images || 'https://placeholder.com/120x120?text=Poster';
+          var itemImage = item.images || 'images/placeholder-menu.jpg';
           var formattedPrice = item.price.toLocaleString('id-ID');
           var menuItem = `
               <div class="menu-item">

@@ -36,7 +36,7 @@ iframe {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 996;
   border-bottom: 1px solid #f0f2f4;
   height: 55px;
   padding: 0 1.5rem;
@@ -63,10 +63,6 @@ iframe {
   color: #fffb00;
   text-shadow: -1px -1px 0 #b5a06c, 1px -1px 0 #b5a06c, -1px 1px 0 #b5a06c,
     1px 1px 0 #b5a06c;
-}
-
-.navbar-menu {
-  display: none;
 }
 
 .navbar-menu {
