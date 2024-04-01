@@ -74,6 +74,20 @@ iframe {
   float: right;
 }
 
+.bg-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(28, 29, 29, 0.8);
+  transition-duration: 0.15s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .navbar-menu {
     display: inline-block;
