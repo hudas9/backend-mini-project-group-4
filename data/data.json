@@ -195,7 +195,7 @@
         },
         { "name": "Kepala Ikan Karang + Nasi",
           "price": 35000,
-          "images": "images/nasi-ikan-karang-nasi.jpg"
+          "images": "images/kepala-ikan-karang-nasi.jpg"
         },
         { "name": "Nasi Ikan Karang",
           "price": 25000,
@@ -270,18 +270,53 @@
         }
       ],
       "Daging / Jeroan (Tanpa Nasi)": [
-        { "name": "Dendeng Lambok", "price": 16250 },
-        { "name": "Dendeng Kering", "price": 16250 },
-        { "name": "Gulai Babat", "price": 16250 },
-        { "name": "Gulai Usus", "price": 16250 },
-        { "name": "Gulai Cancang", "price": 30000 },
-        { "name": "Asam Pedas Daging", "price": 16250 },
-        { "name": "Rendang", "price": 16250 },
-        { "name": "Dendeng Paru", "price": 16250 },
-        { "name": "Gulai Tunjang", "price": 16250 },
-        { "name": "Kalio Hati", "price": 16250 },
-        { "name": "Kalio Limpo", "price": 16250 },
-        { "name": "Tambusu", "price": 16250, "images": "images/tambusu.jpeg" }
+        { "name": "Dendeng Lambok",
+          "price": 16250,
+          "images": "images/dendeng-lambok.jpg"
+        },
+        { "name": "Dendeng Kering",
+          "price": 16250,
+          "images": "images/dendeng-kering.jpg"
+        },
+        { "name": "Gulai Babat",
+          "price": 16250,
+          "images": "images/gulai-babat.jpg"
+        },
+        { "name": "Gulai Usus",
+          "price": 16250,
+          "images": "images/gulai-usus.jpg"
+        },
+        { "name": "Gulai Cancang",
+          "price": 30000,
+          "images": "images/gulai-cancang.jpg"
+        },
+        { "name": "Asam Pedas Daging",
+          "price": 16250,
+          "images": "images/asam-pedas-daging.jpg"
+        },
+        { "name": "Rendang",
+          "price": 16250,
+          "images": "images/rendang.jpg"
+        },
+        { "name": "Dendeng Paru",
+          "price": 16250,
+          "images": "images/dendeng-paru.jpg"
+        },
+        { "name": "Gulai Tunjang",
+          "price": 16250,
+          "images": "images/gulai-tunjang.jpg"
+        },
+        { "name": "Kalio Hati",
+          "price": 16250,
+          "images": "images/kalio-hati.jpg"
+        },
+        { "name": "Kalio Limpo",
+          "price": 16250,
+          "images": "images/kalio-limpo.jpg"
+        },
+        { "name": "Tambusu",
+          "price": 16250,
+          "images": "images/tambusu.jpeg" }
       ],
       "Ikan (Tanpa Nasi)": [
         { "name": "Nila Bakar", "price": 16250 },
