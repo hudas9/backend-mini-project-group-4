@@ -127,37 +127,112 @@
           "price": 25000,
           "images": "images/nasi-asam-pedas-daging.jpg"
         },
-        { "name": "Nasi Rendang", "price": 25000 },
-        { "name": "Nasi Paru", "price": 25000 },
-        { "name": "Nasi Gulai Tunjang", "price": 25000 },
-        { "name": "Nasi Kalio Hati", "price": 25000 },
-        { "name": "Nasi Kalio Limpo", "price": 25000 },
-        { "name": "Nasi Tambusu", "price": 25000 }
+        { "name": "Nasi Rendang",
+          "price": 25000,
+          "images": "images/nasi-rendang.jpg"
+        },
+        { "name": "Nasi Paru",
+          "price": 25000,
+          "images": "images/nasi-paru.jpg"
+        },
+        { "name": "Nasi Gulai Tunjang",
+          "price": 25000,
+          "images": "images/nasi-gulai-tunjang.jpg"
+        },
+        { "name": "Nasi Kalio Hati",
+          "price": 25000,
+          "images": "images/nasi-kalio-hati.jpg"
+        },
+        { "name": "Nasi Kalio Limpo",
+          "price": 25000,
+          "images": "images/nasi-kalio-limpo.jpg"
+        },
+        { "name": "Nasi Tambusu",
+          "price": 25000,
+          "images": "images/nasi-tambusu.jpg"
+        }
       ],
       "Nasi Ikan": [
-        { "name": "Nasi Nila Bakar", "price": 25000 },
-        { "name": "Nasi Ikan Laut Bakar", "price": 25000 },
-        { "name": "Nasi Ikan Laut Goreng", "price": 25000 },
-        { "name": "Nasi Nila Goreng", "price": 25000 },
-        { "name": "Nasi Lele Goreng", "price": 25000 },
-        { "name": "Nasi Ikan Gulai", "price": 25000 },
-        { "name": "Nasi Asam Pedas Patin", "price": 25000 },
-        { "name": "Nasi Lele Bakar", "price": 25000 },
-        { "name": "Nasi Asam Pedas Ikan Laut", "price": 25000 },
-        { "name": "Nasi Gulai Ikan Nila", "price": 25000 },
-        { "name": "Kepala Ikan Karang + Nasi", "price": 35000 },
-        { "name": "Nasi Ikan Karang", "price": 25000 },
-        { "name": "Nasi Ikan Tauco", "price": 25000 },
-        { "name": "Nasi Ikan Sisik Lado Merah", "price": 25000 }
+        { "name": "Nasi Nila Bakar",
+          "price": 25000,
+          "images": "images/nasi-nila-bakar.jpg"
+        },
+        { "name": "Nasi Ikan Laut Bakar",
+          "price": 25000,
+          "images": "images/nasi-ikan-laut-bakar.jpg"
+        },
+        { "name": "Nasi Ikan Laut Goreng",
+          "price": 25000,
+          "images": "images/nasi-ikan-laut-goreng.jpg"
+        },
+        { "name": "Nasi Nila Goreng",
+          "price": 25000,
+          "images": "images/nasi-nila-goreng.jpg"
+        },
+        { "name": "Nasi Lele Goreng",
+          "price": 25000,
+          "images": "images/nasi-lele-goreng.jpg"
+        },
+        { "name": "Nasi Ikan Gulai",
+          "price": 25000,
+          "images": "images/nasi-ikan-gulai.jpg"
+        },
+        { "name": "Nasi Asam Pedas Patin",
+          "price": 25000,
+          "images": "images/nasi-asam-pedas-patin.jpg"
+        },
+        { "name": "Nasi Lele Bakar",
+          "price": 25000,
+          "images": "images/nasi-lele-bakar.jpg"
+        },
+        { "name": "Nasi Asam Pedas Ikan Laut",
+          "price": 25000,
+          "images": "images/nasi-asam-pedas-ikan-laut.jpg"
+        },
+        { "name": "Nasi Gulai Ikan Nila",
+          "price": 25000,
+          "images": "images/nasi-gulai-ikan-nila.jpg"
+        },
+        { "name": "Kepala Ikan Karang + Nasi",
+          "price": 35000,
+          "images": "images/nasi-ikan-karang-nasi.jpg"
+        },
+        { "name": "Nasi Ikan Karang",
+          "price": 25000,
+          "images": "images/nasi-ikan-karang.jpg"
+        },
+        { "name": "Nasi Ikan Tauco",
+          "price": 25000,
+          "images": "images/nasi-ikan-tauco.jpg"
+        },
+        { "name": "Nasi Ikan Sisik Lado Merah",
+          "price": 25000,
+          "images": "images/nasi-ikan-sisik-lado-merah.jpg"
+        }
       ],
       "Nasi Telur": [
-        { "name": "Nasi Telur Dadar", "price": 25000 },
-        { "name": "Nasi Kalang Telur Puyuh", "price": 25000 }
+        { "name": "Nasi Telur Dadar",
+          "price": 25000,
+          "images": "images/nasi-telur-dadar.jpg"
+        },
+        { "name": "Nasi Kalang Telur Puyuh",
+          "price": 25000,
+          "images": "images/nasi-kalang-telur-puyuh.jpg"
+        }
       ],
       "Kerupuk": [
-        { "name": "Kerupuk Jangek", "price": 5000 },
-        { "name": "Kerupuk Emping", "price": 5000 },
-        { "name": "Kerupuk Sanjay", "price": 10000 }
+        { "name": "Kerupuk Jangek",
+          "price": 5000,
+          "images": "images/kerupuk-jangek.jpg"
+        },
+        { "name": "Kerupuk Emping",
+          "price": 5000,
+          "images": "images/kerupuk-emping.jpg"
+        },
+        { "name": "Kerupuk Sanjay",
+          "price": 10000,
+          "images": "images/kerupuk-sanjay.jpg"
+        }
       ],
       "Ayam / Belut (Tanpa Nasi)": [
         {
@@ -170,13 +245,19 @@
           "price": 16250,
           "images": "images/ayam-bakar.jpeg"
         },
-        { "name": "Ayam Goreng Bumbu", "price": 16250 },
+        { "name": "Ayam Goreng Bumbu",
+          "price": 16250,
+          "images": "images/ayam-goreng-bumbu.jpg"
+        },
         {
           "name": "Ayam Penyet",
           "price": 16250,
           "images": "images/ayam-penyet.jpeg"
         },
-        { "name": "Belut", "price": 16250, "images": "images/belut.jpeg" },
+        { "name": "Belut",
+          "price": 16250,
+          "images": "images/belut.jpeg" 
+        },
         {
           "name": "Ayam Lado Hijau",
           "price": 16250,
