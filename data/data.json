@@ -31,16 +31,22 @@
         },
         {
           "name": "Nasi Ayam Penyet",
-          "price": 25000
+          "price": 25000,
+          "images": "images/nasi-ayam-penyet.jpg"
         },
-        { "name": "Nasi Belut", "price": 25000 },
+        { "name": "Nasi Belut", 
+          "price": 25000,
+          "images": "images/nasi-belut.jpg"
+        },
         {
           "name": "Nasi Ayam Kecap",
-          "price": 25000
+          "price": 25000,
+          "images": "images/nasi-ayam-kecap.jpg"
         },
         {
           "name": "Nasi Ayam Lado Hijau",
-          "price": 25000
+          "price": 25000,
+          "images": "images/nasi-ayam-lado-hijau.jpg"
         }
       ],
       "Minuman": [
@@ -69,9 +75,18 @@
           "price": 15000,
           "images": "images/teh-telur.jpeg"
         },
-        { "name": "Teh Es", "price": 8000, "images": "images/esteh.jpeg" },
-        { "name": "Teh Manis Panas", "price": 7000 },
-        { "name": "Kopi", "price": 7000, "images": "images/kopi.jpeg" },
+        { "name": "Teh Es", 
+          "price": 8000, 
+          "images": "images/esteh.jpeg" 
+        },
+        { "name": "Teh Manis Panas", 
+          "price": 7000,
+          "images": "images/teh-manis-panas.jpg"
+        },
+        { "name": "Kopi", 
+          "price": 7000, 
+          "images": "images/kopi.jpeg" 
+        },
         {
           "name": "Jus Wortel",
           "price": 15000,
