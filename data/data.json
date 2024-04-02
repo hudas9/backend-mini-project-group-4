@@ -20,10 +20,14 @@
           "price": 25000,
           "images": "images/nasi-ayam-goreng-bumbu.jpeg"
         },
-        { "name": "Nasi Ayam Bakar", "price": 25000 },
+        { "name": "Nasi Ayam Bakar", 
+          "price": 25000,
+          "images": "images/nasi-ayam-bakar.jpg"
+        },
         {
           "name": "Nasi Ayam Gulai",
-          "price": 25000
+          "price": 25000,
+          "images": "images/nasi-ayam-gulai.jpg"
         },
         {
           "name": "Nasi Ayam Penyet",
