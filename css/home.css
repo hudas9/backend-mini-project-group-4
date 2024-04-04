@@ -70,8 +70,7 @@
 
 @media screen and (min-width: 768px) {
   #about {
-    width: 50%;
-    text-align: center;
+    margin-left: 10%;
   }
 
   #about h1 {
