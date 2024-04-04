@@ -9,6 +9,15 @@
   margin-top: 7rem;
 }
 
+#about {
+  width:84% !important;
+  height:67vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:left;
+}
+
 #about h1 {
   font-size: 1.125rem;
   margin-right: 1rem;
