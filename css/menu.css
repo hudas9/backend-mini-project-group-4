@@ -79,6 +79,7 @@ body {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(45deg);
   }
@@ -105,6 +106,7 @@ body {
   from {
     transform: translateX(-50%) translateY(5%);
   }
+
   to {
     transform: translateX(-50%) translateY(0);
   }
@@ -119,6 +121,7 @@ body {
     transform: translateX(-50%) translateY(0);
     opacity: 1;
   }
+
   to {
     transform: translateX(-50%) translateY(1%);
     opacity: 0;
@@ -221,6 +224,7 @@ body {
     from {
       transform: translateY(5%);
     }
+
     to {
       transform: translateY(0);
     }
@@ -235,6 +239,7 @@ body {
       transform: translateY(0);
       opacity: 1;
     }
+
     to {
       transform: translateY(1%);
       opacity: 0;
