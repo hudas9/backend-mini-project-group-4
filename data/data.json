@@ -305,6 +305,7 @@
         {
           "name": "Dendeng Kering",
           "price": 16250
+          "images": "images/dendeng-kering.jpg"
         },
         {
           "name": "Gulai Babat",
@@ -327,7 +328,7 @@
           "images": "images/asam-pedas-daging.jpg"
         },
         { "name": "Rendang", "price": 16250, "images": "images/rendang.jpg" },
-        { "name": "Dendeng Paru", "price": 16250 },
+        { "name": "Dendeng Paru", "price": 16250, "images": "images/dendeng-paru.jpg" },
         {
           "name": "Gulai Tunjang",
           "price": 16250,
