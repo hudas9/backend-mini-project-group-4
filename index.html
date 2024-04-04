@@ -1,85 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RM Sederhana</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/home.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.7.1.js"
-      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/4530e241c6.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
 
-  <body>
-    <nav class="navbar">
-      <i class="fa-solid fa-bars" id="bars"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RM Sederhana</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4530e241c6.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typeit@8.8.3/dist/index.umd.js"></script>
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <i class="fa-solid fa-bars" id="bars"></i>
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Logo">
+      <span>RM Sederhana</span>
+    </a>
+    <div class="navbar-menu">
+      <i class="fa-solid fa-xmark" id="xmark"></i>
       <a href="index.html" class="logo">
         <img src="images/logo.png" alt="Logo">
-      <span>RM Sederhana</span>
       </a>
-      <div class="navbar-menu">
-        <i class="fa-solid fa-xmark" id="xmark"></i>
-        <a href="index.html" class="logo">
-          <img src="images/logo.png" alt="Logo">
-        </a>
-        <div class="navbar-list">
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="menu.html">Menu</a>
-            </li>
-            <li>
-              <a href="about-us.html">About Us</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    
-
-    <div class="container">
-      <table id="top_part">
-        <tr>
-          <td id="about" class="hide">
-            <h1>
-              Kalau Anda puas beri tahu yang lain, kalau anda tidak puas beri
-              tahu kami 😉
-            </h1>
-          </td>
-          <td id="dImg" align="center">
-            <img id="rImg" src="images/restaurant.webp" />
-          </td>
-        </tr>
-      </table>
-      <div id="contact-address">
-        <p>Senin - Minggu 00:00-04:30 & 16:00-23:59</p>
-        <p id="underline">Jl. By Pass Km 8, Kuranji, Padang</p>
-        <p>
-          Lihat di <a href="maps.html" target="_blank"><b>Google Maps </b></a>atau
-          pesan sekarang di
-          <a
-            href="https://gofood.co.id/padang/restaurant/rm-sederhana-jalan-by-pass-13448cb7-d075-4cb5-9887-4855865185bd"
-            target="_blank"
-            ><b>GoFood</b></a
-          >
-        </p>
+      <div class="navbar-list">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="menu.html">Menu</a>
+          </li>
+          <li>
+            <a href="about-us.html">About Us</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <script src="js/script.js"></script>
-  </body>
+
+  <div class="container">
+    <table id="top_part">
+      <tr>
+        <td id="about" class="hide">
+          <h1>
+            <div id="slogan"></span>
+          </h1>
+        </td>
+        <td id="dImg" align="center">
+          <img id="rImg" src="images/restaurant.webp" />
+        </td>
+      </tr>
+    </table>
+    <div id="contact-address">
+      <p>Senin - Minggu 00:00-04:30 & 16:00-23:59</p>
+      <p id="underline">Jl. By Pass Km 8, Kuranji, Padang</p>
+      <p>
+        Lihat di <a href="maps.html" target="_blank"><b>Google Maps </b></a>atau
+        pesan sekarang di
+        <a href="https://gofood.co.id/padang/restaurant/rm-sederhana-jalan-by-pass-13448cb7-d075-4cb5-9887-4855865185bd"
+          target="_blank"><b>GoFood</b></a>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>
+    const sloganElement = document.getElementById('slogan');
+
+    const sloganTexts = [
+      "Nikmati Kelezatan Sederhana, Rasakan Kehangatan Rumah",
+      "Sederhana, Tetapi Tidak Pernah Mengurangi Kelezatan",
+      "Sajian Sederhana, Kebahagiaan yang Sejati",
+      "Rasakan Kelezatan Otentik dalam Setiap Sajian",
+      "Di Sini, Sederhana Bukan Berarti Biasa",
+      "Kesederhanaan yang Menggugah Selera, Rasakan Sendiri",
+      "Sederhana dalam Rasa, Luar Biasa dalam Pengalaman",
+      "Setiap Hidangan Sederhana adalah Cerita Kebahagiaan",
+      "Kelezatan yang Tidak Pernah Tergantikan oleh Kesederhanaan",
+      "Rumah Rasa Sederhana, Kebahagiaan yang Tiada Tanding"
+    ];
+
+    function displayRandomSlogan() {
+      const randomIndex = Math.floor(Math.random() * sloganTexts.length);
+      sloganElement.innerHTML = "";
+      new TypeIt(sloganElement, {
+        strings: [sloganTexts[randomIndex]],
+        speed: 50,
+        cursor: false,
+        waitUntilVisible: true,
+        lifeLike: true
+      }).go();
+    }
+
+    displayRandomSlogan();
+  </script>
+</body>
+
 </html>
