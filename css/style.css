@@ -216,3 +216,8 @@ iframe {
 
 @media screen and (min-width: 1024px) {
 }
+
+#underline {
+  text-decoration: underline;
+  text-decoration-color: #f4b8e4;
+}
