@@ -221,3 +221,21 @@ iframe {
   text-decoration: underline;
   text-decoration-color: #f4b8e4;
 }
+
+a:link {
+  color: #838ba7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a5adce;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #babbf1;
+  background-color: transparent;
+  text-decoration: underline;
+}
