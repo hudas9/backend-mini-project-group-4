@@ -41,11 +41,11 @@ function displayRandomSlogan() {
     cursor: false,
     waitUntilVisible: true,
     lifeLike: true,
+    afterComplete: () => {
+      setTimeout(displayRandomSlogan, 6000);
+    }
   }).go();
 }
 
 // Display a random slogan when the page is loaded
 displayRandomSlogan();
-
-// Change the slogan every 5 seconds
-setInterval(displayRandomSlogan, 10000);
