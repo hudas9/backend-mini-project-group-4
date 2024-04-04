@@ -10,12 +10,12 @@
 }
 
 #about {
-  width:84% !important;
-  height:67vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  text-align:left;
+  width: 84% !important;
+  height: 67vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
 }
 
 #about h1 {
@@ -26,8 +26,10 @@
 
 #rImg {
   width: 200px;
+  height: 150px;
   border-radius: 21px;
   animation: slideInRight 1s;
+  object-fit: cover;
 }
 
 @keyframes slideInLeft {
@@ -63,7 +65,7 @@
   margin-bottom: 0.125rem;
 }
 
-.hide {
+.opacity-0 {
   opacity: 0;
 }
 
@@ -107,6 +109,8 @@
 
   #rImg {
     width: 400px;
+    height: 300px;
+    object-fit: cover;
   }
 
   #contact-address p {

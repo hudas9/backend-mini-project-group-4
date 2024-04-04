@@ -104,7 +104,7 @@ iframe {
   height: 100%;
   z-index: 1000;
   padding: 1.5rem;
-  animation: slideInRight 0.5s forwards;
+  animation: slideInRightNavbar 0.5s forwards;
 }
 
 .navbar-menu.hide {
@@ -117,10 +117,10 @@ iframe {
   height: 100%;
   z-index: 1000;
   padding: 1.5rem;
-  animation: slideOutLeft 0.5s forwards;
+  animation: slideOutLeftNavbar 0.5s forwards;
 }
 
-@keyframes slideInRight {
+@keyframes slideInRightNavbar {
   from {
     transform: translateX(-100%);
   }
@@ -130,7 +130,7 @@ iframe {
   }
 }
 
-@keyframes slideOutLeft {
+@keyframes slideOutLeftNavbar {
   from {
     transform: translateX(0);
   }

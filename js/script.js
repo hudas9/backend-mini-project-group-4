@@ -14,6 +14,6 @@ const aboutElement = document.getElementById('about');
 const rImgElement = document.getElementById('rImg');
 
 rImgElement.addEventListener('animationend', () => {
-  aboutElement.classList.remove('hide');
+  aboutElement.classList.remove('opacity-0');
   aboutElement.style.animation = 'slideInLeft 0.9s';
 });
