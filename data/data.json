@@ -77,13 +77,21 @@
           "price": 15000,
           "images": "images/teh-telur.jpeg"
         },
-        { "name": "Teh Es", "price": 8000, "images": "images/esteh.jpeg" },
+        {
+          "name": "Teh Es",
+          "price": 8000,
+          "images": "images/esteh.jpeg"
+        },
         {
           "name": "Teh Manis Panas",
           "price": 7000,
           "images": "images/teh-manis-panas.jpg"
         },
-        { "name": "Kopi", "price": 7000, "images": "images/kopi.jpeg" },
+        {
+          "name": "Kopi",
+          "price": 7000,
+          "images": "images/kopi.jpeg"
+        },
         {
           "name": "Jus Wortel",
           "price": 15000,
@@ -284,7 +292,11 @@
           "price": 16250,
           "images": "images/ayam-penyet.jpeg"
         },
-        { "name": "Belut", "price": 16250, "images": "images/belut.jpeg" },
+        {
+          "name": "Belut",
+          "price": 16250,
+          "images": "images/belut.jpeg"
+        },
         {
           "name": "Ayam Lado Hijau",
           "price": 16250,
@@ -327,8 +339,16 @@
           "price": 16250,
           "images": "images/asam-pedas-daging.jpg"
         },
-        { "name": "Rendang", "price": 16250, "images": "images/rendang.jpg" },
-        { "name": "Dendeng Paru", "price": 16250, "images": "images/dendeng-paru.jpg" },
+        {
+          "name": "Rendang",
+          "price": 16250,
+          "images": "images/rendang.jpg"
+        },
+        {
+          "name": "Dendeng Paru",
+          "price": 16250,
+          "images": "images/dendeng-paru.jpg"
+        },
         {
           "name": "Gulai Tunjang",
           "price": 16250,
@@ -344,7 +364,11 @@
           "price": 16250,
           "images": "images/kalio-limpo.jpg"
         },
-        { "name": "Tambusu", "price": 16250, "images": "images/tambusu.jpeg" }
+        {
+          "name": "Tambusu",
+          "price": 16250,
+          "images": "images/tambusu.jpeg"
+        }
       ],
       "Ikan (Tanpa Nasi)": [
         {
@@ -442,7 +466,11 @@
         }
       ],
       "Pergedel": [
-        { "name": "Pergedel", "price": 7000, "images": "images/pergedel.jpg" }
+        {
+          "name": "Pergedel",
+          "price": 7000,
+          "images": "images/pergedel.jpg"
+        }
       ],
       "Petai Rebus": [
         {
