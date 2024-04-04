@@ -455,7 +455,8 @@
         },
         {
           "name": "Telur Mata Sapi",
-          "price": 10000
+          "price": 10000,
+          "images": "images/telur-mata-sapi.jpg"
         }
       ],
       "Sayur Nangka": [
