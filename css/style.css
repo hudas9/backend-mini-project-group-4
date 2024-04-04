@@ -226,6 +226,7 @@ iframe {
 #underline {
   text-decoration: underline;
   text-decoration-color: #f4b8e4;
+  font-weight: 600;
 }
 
 a:link {
