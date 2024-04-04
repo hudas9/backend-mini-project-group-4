@@ -1,3 +1,4 @@
+// Get data menu
 $(document).ready(() => {
   $.ajax({
     url: 'data/data.json',
@@ -34,6 +35,7 @@ $(document).ready(() => {
   });
 });
 
+// Show and hide Category List
 $('.menu-list').click(function () {
   var icon = $('.menu-list-icon i');
   var desc = $('.menu-list-desc');
@@ -73,6 +75,7 @@ $('.menu-list').click(function () {
   }
 });
 
+// Hide Category List when clicking outside the container
 $(document).click(function (event) {
   var categoryList = document.querySelector('.category-list');
   var menuList = document.querySelector('.menu-list');
@@ -85,6 +88,7 @@ $(document).click(function (event) {
   }
 });
 
+// Get Category List name and total menu
 $(document).ready(function () {
   $.ajax({
     url: 'data/data.json',

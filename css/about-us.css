@@ -39,12 +39,12 @@ body {
   white-space: nowrap;
 }
 
-#jam-buka {
+#show-opening-hours {
   font-size: 19px;
   cursor: pointer;
 }
 
-.container-full {
+.overflow-x-container {
   background-color: #fafafa;
   overflow-x: scroll;
   display: flex;
@@ -54,9 +54,15 @@ body {
 
 .item {
   padding: 0 1rem;
-  border-right: 1px solid rgb(232 232 232/1);
+  border-right: 1px solid rgb(232 232 232);
   white-space: nowrap;
   text-align: center;
+}
+
+.item a {
+  font-size: 0.875rem;
+  color: rgb(0 136 13);
+  font-weight: bold;
 }
 
 .item-detail {
@@ -75,17 +81,7 @@ body {
   font-weight: bold;
 }
 
-.item a {
-  font-size: 0.875rem;
-  color: rgb(0 136 13/1);
-  font-weight: bold;
-}
-
-.item p {
-  font-size: 0.875rem;
-}
-
-.jam-buka-container {
+.opening-hours-container {
   display: none;
   flex-direction: column;
   position: fixed;
@@ -99,48 +95,48 @@ body {
   padding: 1.5rem;
 }
 
-.jam-buka-container h2 {
+.opening-hours-container h2 {
   font-size: 1.125rem;
   font-weight: 600;
   margin-bottom: 1rem;
 }
 
-.jam-buka {
+.opening-hours {
   overflow-y: auto;
 }
 
-.alamat {
+.address {
   font-size: 0.875rem;
   color: rgb(114 114 114 / 1);
   margin-bottom: 1rem;
 }
 
-.jadwal-buka h4 {
+.opening-schedule h4 {
   margin-bottom: 1rem;
 }
 
-.jadwal-buka div {
+.opening-schedule div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1rem;
 }
 
-.jadwal-buka p {
+.opening-schedule p {
   font-size: 0.875rem;
   color: rgb(114 114 114 / 1);
 }
 
-.jadwal-buka p:nth-child(2) {
+.opening-schedule p:nth-child(2) {
   margin-right: 1rem;
 }
 
-.close-jam-buka {
+.close-opening-hours {
   background-color: #fff;
   border-radius: 9999px;
   top: -2.75rem;
   right: 1rem;
   position: absolute;
-  border: 1px solid rgb(0 136 13/1);
+  border: 1px solid rgb(0 136 13);
   width: 34px;
   height: 34px;
   cursor: pointer;
@@ -149,6 +145,21 @@ body {
 .about {
   margin-top: 3rem;
   padding: 0 1.5rem;
+}
+
+.bg-overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(28, 29, 29, 0.8);
+  transition-duration: 0.15s;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 1;
+  display: none;
+  z-index: 997;
 }
 
 @media screen and (min-width: 768px) {
@@ -170,11 +181,11 @@ body {
     font-size: 1.125rem;
   }
 
-  #jam-buka {
+  #show-opening-hours {
     margin-left: 1rem;
   }
 
-  .container-full {
+  .overflow-x-container {
     overflow-x: auto;
     padding: 1rem 2rem;
     margin-left: auto;
@@ -199,7 +210,7 @@ body {
     margin-left: 0.4rem;
   }
 
-  .jam-buka-container {
+  .opening-hours-container {
     border-radius: 0.5rem;
     max-width: 350px;
     text-align: left;
@@ -209,7 +220,7 @@ body {
     transform: translate(-50%, 50%);
   }
 
-  .close-jam-buka {
+  .close-opening-hours {
     right: 0;
   }
 }

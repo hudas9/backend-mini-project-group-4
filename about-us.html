@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RM Sederhana | About</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="css/about-us.css" />
     <script
       src="https://code.jquery.com/jquery-3.7.1.js"
@@ -17,13 +17,13 @@
     <nav class="navbar">
       <i class="fa-solid fa-bars" id="bars"></i>
       <a href="index.html" class="logo">
-        <img src="images/logo.png" alt="Logo">
-      <span>RM Sederhana</span>
+        <img src="images/logo.png" alt="Logo" />
+        <span>RM Sederhana</span>
       </a>
       <div class="navbar-menu">
         <i class="fa-solid fa-xmark" id="xmark"></i>
         <a href="index.html" class="logo">
-          <img src="images/logo.png" alt="Logo">
+          <img src="images/logo.png" alt="Logo" />
         </a>
         <div class="navbar-list">
           <ul>
@@ -50,13 +50,13 @@
         </div>
         <i
           class="fa-solid fa-angle-right"
-          id="jam-buka"
+          id="show-opening-hours"
           style="color: #000000"
         ></i>
       </div>
     </div>
 
-    <div class="container-full">
+    <div class="overflow-x-container">
       <div class="item">
         <div class="item-detail">
           <i class="fa-solid fa-star" style="color: #ffd43b"></i>
@@ -103,19 +103,17 @@
       </div>
     </div>
 
-    <div class="bg-overlay" id="bg-overlay" style="z-index: 997"></div>
-
-    <div class="jam-buka-container">
-      <button class="close-jam-buka" id="close-jam-buka">
+    <div class="opening-hours-container">
+      <button class="close-opening-hours" id="close-opening-hours">
         <i
           class="fa-solid fa-xmark"
-          style="color: rgb(0 136 13/1); font-size: 1.5rem"
+          style="color: rgb(0 136 13); font-size: 1.5rem"
         ></i>
       </button>
       <h2>RM Sederhana, Jalan By Pass</h2>
-      <div class="jam-buka">
-        <p class="alamat">Jl. By Pass Km 8, Kuranji, Padang</p>
-        <div class="jadwal-buka">
+      <div class="opening-hours">
+        <p class="address">Jl. By Pass Km 8, Kuranji, Padang</p>
+        <div class="opening-schedule">
           <h4>Jam Buka</h4>
           <div>
             <p>Senin</p>
@@ -167,8 +165,10 @@
       </p>
     </div>
 
+    <div class="bg-overlay" id="bg-overlay"></div>
+
+    <script src="js/navbar.js"></script>
     <script src="js/about-us.js"></script>
-    <script src="js/script.js"></script>
     <script
       src="https://kit.fontawesome.com/4530e241c6.js"
       crossorigin="anonymous"
