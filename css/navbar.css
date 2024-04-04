@@ -149,13 +149,13 @@ iframe {
 }
 
 .navbar-list ul li a {
-  color: #00880d;
+  color: #df8e1d;
   font-size: 15px;
   font-weight: bold;
 }
 
 .navbar-list ul li a:hover {
-  color: #00a11d;
+  color: #fe640b;
 }
 
 @media screen and (min-width: 768px) {
@@ -198,11 +198,11 @@ iframe {
   }
 
   .navbar-list ul li a {
-    color: #727272;
+    color: #fe640b;
   }
 
   .navbar-list ul li a:hover {
-    color: #000;
+    color: #df8e1d;
   }
 }
 
