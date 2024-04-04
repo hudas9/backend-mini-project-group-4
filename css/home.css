@@ -26,7 +26,6 @@
 
 #rImg {
   width: 120px;
-  border: 2px solid #000000;
   border-radius: 21px;
   animation: slideInRight 1s;
 }
