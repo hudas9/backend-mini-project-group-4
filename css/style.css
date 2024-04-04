@@ -51,18 +51,24 @@ iframe {
   cursor: pointer;
 }
 
-.logo {
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  color: #212121;
+  text-decoration: none;
   cursor: pointer;
-  font-size: 20px;
   font-weight: 900;
-  color: #152da8;
-  line-height: 55px;
 }
 
-.logo span {
-  color: #fffb00;
-  text-shadow: -1px -1px 0 #b5a06c, 1px -1px 0 #b5a06c, -1px 1px 0 #b5a06c,
-    1px 1px 0 #b5a06c;
+.navbar .logo img {
+  max-width: 100px;
+  height: auto;
+  max-height: 50px;
+  margin-right: 10px;
+}
+
+.navbar .logo span {
+  font-size: 1.2rem;
 }
 
 .navbar-menu {
